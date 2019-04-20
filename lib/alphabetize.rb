@@ -6,3 +6,6 @@ def alphabetize(arr)
     end
   end
 end
+
+#%w{apple pear fig}.sort_by { |word| word.length}
+              #=> ["fig", "pear", "apple"]
